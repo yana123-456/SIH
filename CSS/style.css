@@ -3,6 +3,8 @@ body{
     z-index: 0;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
+    background-image: url('../IMG/war\ images.jpg');
 }
 
 .BG{
@@ -60,26 +62,14 @@ body .vertical-centered-box .content {
   text-align: left;
   font-size: 0;
 }
-* {
-}
-body {
-  background: #2c2d44;
-}
-#particles-background,
-#particles-foreground {
-  left: -51%;
-  top: -51%;
-  width: 202%;
-  height: 202%;
-  transform: scale3d(0.5, 0.5, 1);
-  position: fixed;
-  z-index: -1;
-}
-#particles-background {
+
+
+
+/* #particles-background {
     background-image: linear-gradient(180deg, #ff7700, #450c00);
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -105,15 +95,13 @@ body {
   }
 }
 
-body{
-    z-index: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .BG{
-    height: 100vh;
     width: 100%;
+    background-image: url(../IMG/war\ images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
         
 }
 
@@ -132,6 +120,17 @@ body{
   position: relative;
   z-index: 200;
   transition: 0.5s;
+}
+
+#box-services{
+  backdrop-filter: blur(20px);
+  width: 90vw;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  height: fit-content;
+
 }
 
 .Page .Services {
@@ -167,7 +166,7 @@ body{
 }
 
 .back {
-  background: #03446a;
+  background: #0b669b68;
   color: white;
   transform: rotateX(180deg);
 }
@@ -181,6 +180,19 @@ body{
   line-height: normal;
   margin-bottom: 50px;
   width: 100%;
+}
+
+#card-1-front{
+  background-image: url(../IMG/war1.jpeg);
+  background-size: contain;
+}
+#card-2-front{
+  background-image: url(../IMG/war2.jpeg);
+  background-size: contain;
+}
+#card-3-front{
+  background-image: url(../IMG/war3.jpeg);
+  background-size: contain;
 }
 
 .Services .card .cardNo {
@@ -207,7 +219,7 @@ body{
 
 
 .Hero{
-  min-height: 90vh;
+
 }
 
 .introText h1{
