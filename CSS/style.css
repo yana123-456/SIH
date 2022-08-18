@@ -3,6 +3,7 @@ body{
     z-index: 0;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .BG{
@@ -207,7 +208,7 @@ body{
 
 
 .Hero{
-  min-height: 90vh;
+
 }
 
 .introText h1{
